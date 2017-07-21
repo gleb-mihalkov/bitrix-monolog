@@ -1,0 +1,29 @@
+{
+    "name": "gm/bitrix-logger",
+    "description": "Библиотека логгирования для Битрикс CMS.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "gleb-mihalkov",
+            "email": "gleb.mihalkov.work@yandex.ru"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/gleb-mihalkov/bitrix-debug-bar"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BitrixLogger\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "monolog/monolog": "^1.23",
+        "bitrix-expert/monolog-adapter": "^1.0",
+        "webmozart/path-util": "^2.3"
+    }
+}
