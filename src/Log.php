@@ -1,5 +1,5 @@
 <?php
-namespace BitrixLogger
+namespace BitrixMonolog
 {
     use Bex\Monolog\MonologAdapter;
     use Monolog\Registry;

@@ -1,5 +1,5 @@
 <?php
-namespace BitrixLogger\Handler
+namespace BitrixMonolog\Handler
 {
     use Bex\Monolog\Handler\BitrixHandler;
     use CEventLog;

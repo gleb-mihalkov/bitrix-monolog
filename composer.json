@@ -1,5 +1,5 @@
 {
-    "name": "gm/bitrix-logger",
+    "name": "gm/bitrix-monolog",
     "description": "Monolog для CMS Битрикс.",
     "type": "library",
     "authors": [
@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "BitrixLogger\\": "src/"
+            "BitrixMonolog\\": "src/"
         }
     },
     "minimum-stability": "dev",
