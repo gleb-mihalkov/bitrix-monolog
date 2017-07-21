@@ -1,6 +1,6 @@
 {
     "name": "gm/bitrix-logger",
-    "description": "Библиотека логгирования для Битрикс CMS.",
+    "description": "Monolog для CMS Битрикс.",
     "type": "library",
     "authors": [
         {
