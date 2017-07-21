@@ -17,7 +17,6 @@
     "prefer-stable": true,
     "require": {
         "monolog/monolog": "^1.23",
-        "bitrix-expert/monolog-adapter": "^1.0",
-        "webmozart/path-util": "^2.3"
+        "bitrix-expert/monolog-adapter": "^1.0"
     }
 }
