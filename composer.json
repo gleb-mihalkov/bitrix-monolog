@@ -8,12 +8,6 @@
             "email": "gleb.mihalkov.work@yandex.ru"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/gleb-mihalkov/bitrix-debug-bar"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "BitrixLogger\\": "src/"
